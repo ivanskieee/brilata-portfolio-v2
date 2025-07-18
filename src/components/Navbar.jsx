@@ -1,3 +1,76 @@
+import React from 'react';
+
+// Formal IB Logo Component
+function FormalIBLogo({ darkMode }) {
+  return (
+    <div className="flex items-center md:ml-4">
+      <div className="relative">
+        <svg
+          width="45"
+          height="32"
+          viewBox="0 0 45 32"
+          className="transition-all duration-300"
+        >
+          <defs>
+            {/* Formal gradient */}
+            <linearGradient id="formalGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+              <stop offset="0%" stopColor={darkMode ? "#E5E7EB" : "#1F2937"} />
+              <stop offset="100%" stopColor={darkMode ? "#9CA3AF" : "#374151"} />
+            </linearGradient>
+            
+            {/* Subtle shadow */}
+            <filter id="textShadow">
+              <feDropShadow dx="0" dy="1" stdDeviation="1" 
+                           floodColor={darkMode ? "#00000060" : "#00000020"}/>
+            </filter>
+          </defs>
+          
+          {/* Letter I */}
+          <text
+            x="15"
+            y="21"
+            fontSize="22"
+            fontWeight="700"
+            fontFamily="Times, serif"
+            fill="url(#formalGradient)"
+            textAnchor="middle"
+            className="select-none"
+            filter="url(#textShadow)"
+          >
+            I
+          </text>
+          
+          {/* Letter B */}
+          <text
+            x="30"
+            y="21"
+            fontSize="22"
+            fontWeight="700"
+            fontFamily="Times, serif"
+            fill="url(#formalGradient)"
+            textAnchor="middle"
+            className="select-none"
+            filter="url(#textShadow)"
+          >
+            B
+          </text>
+          
+          {/* Subtle underline */}
+          <line
+            x1="8"
+            y1="26"
+            x2="37"
+            y2="26"
+            stroke="url(#formalGradient)"
+            strokeWidth="1"
+            opacity="0.3"
+          />
+        </svg>
+      </div>
+    </div>
+  );
+}
+
 export default function Navbar({
   sidebarOpen,
   setSidebarOpen,
@@ -29,7 +102,7 @@ export default function Navbar({
         </div>
       </button>
 
-      <h1 className="text-xl font-bold">IVAN S. BRILATA</h1>
+      <FormalIBLogo darkMode={darkMode} />
 
       <button
         onClick={() => setDarkMode(!darkMode)}
