@@ -112,8 +112,7 @@ export default function About({ fullView = false }) {
               </p>
               <div className="text-gray-700 dark:text-gray-300 mt-2 space-y-2">
                 <p>
-                  Developed and implemented a comprehensive queueing system to streamline 
-                  operations and improve customer service efficiency.
+                  Developed and implemented a comprehensive queueing system to improve customer service efficiency.
                 </p>
                 <ul className="list-disc list-inside ml-4 space-y-1">
                   <li>Designed user-friendly interfaces for both customers and staff</li>

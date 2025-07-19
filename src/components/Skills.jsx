@@ -22,11 +22,11 @@ export default function Skills({ fullView = false }) {
   const skillCategories = {
     "Frontend Development": [
       { name: 'HTML', description: 'Semantic markup and modern HTML5 features' },
-      { name: 'CSS', description: 'Responsive design, Flexbox, Grid, and modern CSS techniques' },
+      { name: 'CSS', description: 'Responsive design and modern CSS techniques' },
       { name: 'JavaScript', description: 'ES6+, DOM manipulation, asynchronous programming' },
       { name: 'React.js', description: 'Component-based architecture, hooks, state management' },
-      { name: 'Tailwind CSS', description: 'Utility-first CSS framework for rapid UI development' },
-      { name: 'Vite', description: 'Modern build tool for faster development experience' }
+      { name: 'Tailwind CSS', description: 'Utility-first framework for rapid UI development' },
+      { name: 'Vite', description: 'Modern tool for faster development experience' }
     ],
     "Backend Development": [
       { name: 'Node.js', description: 'Server-side JavaScript runtime for scalable applications' },
