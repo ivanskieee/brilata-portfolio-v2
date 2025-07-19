@@ -39,7 +39,6 @@ export default function About({ fullView = false }) {
         </h1>
         
         <div className="space-y-8">
-          {/* Profile Photo Section */}
           <div className="flex flex-col items-center mb-8">
             <div className="w-48 h-48 rounded-full overflow-hidden border-4 border-gray-300 dark:border-gray-600 shadow-lg mb-4">
               <img 
@@ -134,7 +133,7 @@ export default function About({ fullView = false }) {
               <div className="bg-gray-100 dark:bg-gray-800 rounded-lg p-4">
                 <h3 className="font-semibold text-black dark:text-white mb-2">Frontend</h3>
                 <ul className="text-gray-700 dark:text-gray-300 space-y-1">
-                  <li>• HTML5, CSS3, JavaScript</li>
+                  <li>• HTML, CSS, JavaScript</li>
                   <li>• React.js, Modern frameworks</li>
                   <li>• Responsive design principles</li>
                   <li>• UI/UX best practices</li>
