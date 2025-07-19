@@ -151,7 +151,7 @@ export default function Projects({ fullView = false }) {
               key={project.id}
               className="border-l-4 border-gray-400 dark:border-gray-600 pl-4 sm:pl-6 py-4 sm:py-6 bg-gray-100 dark:bg-gray-800 rounded-r-lg"
             >
-              <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-8">
+              <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-8 mr-2">
                 <div className="order-2 lg:order-1">
                   <div className="w-full h-48 sm:h-64 lg:h-80 rounded-lg overflow-hidden border border-gray-300 dark:border-gray-600 shadow-lg bg-gray-200 dark:bg-gray-700">
                     <img

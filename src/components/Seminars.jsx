@@ -8,6 +8,13 @@ export default function Seminars({ fullView = false }) {
       skills: ["IoT Fundamentals", "Smart Devices", "Connectivity Protocols"]
     },
     {
+      title: "On-the-Job Training (OJT) Completion",
+      year: "2025",
+      description: "Successfully completed comprehensive on-the-job training program, gaining practical experience in real-world IT environments.",
+      certImage: "/ojtcert.png",
+      skills: ["Practical Experience", "Workplace Skills", "Professional Development"]
+    },
+    {
       title: "Ctrl+Alt+Defend: Cybersecurity 101 for Students",
       year: "2024", 
       description: "Comprehensive introduction to cybersecurity principles, threat detection, and defense strategies for IT professionals.",
@@ -18,16 +25,23 @@ export default function Seminars({ fullView = false }) {
       title: "iSITE's 1st National Conference themed, AI Tools in Education",
       year: "2023",
       description: "Participated in a national conference focusing on the integration of artificial intelligence tools in educational environments.",
-      certImage: "", 
+      certImage: "isite-1st.jpg", 
       skills: ["AI in Education", "Educational Technology", "Digital Learning"]
     },
     {
       title: "3rd iSITE Conference Developing Industry Skills",
       year: "2023",
       description: "Attended conference sessions on developing essential industry skills and staying current with technology trends.",
-      certImage: "",
+      certImage: "isite-3rd.jpg",
       skills: ["Industry Skills", "Professional Development", "Technology Trends"]
-    }
+    },
+    {
+      title: "Research E-Conference",
+      year: "2022",
+      description: "Participated in a virtual research conference exploring current trends and methodologies in academic and industry research.",
+      certImage: "/researchcon.jpg",
+      skills: ["Research Methodology", "Data Analysis", "Academic Writing"]
+    },
   ];
 
   if (!fullView) {
